@@ -1,0 +1,70 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  button {
+    padding: 5px 10px;
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #taskFormContainer {
+    display: none;
+    margin: 20px;
+  }
+  
+  label, input, select, button {
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  h2 {
+    margin-top: 20px;
+  }
+  
+  .task {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+  
+  .task-category {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .completed-task {
+    color: #999;
+    text-decoration: line-through;
+  }
+  
+  .completed-task .task-text {
+    cursor: pointer;
+  }
+  
+  .completed-task .task-text:hover {
+    text-decoration: none;
+  }
+  
